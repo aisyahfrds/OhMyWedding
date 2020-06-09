@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <RelativeLayout
+        android:id="@+id/rellay1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="20dp"
+        android:background="#e59d9d">
+
+        <RelativeLayout
+            android:id="@+id/imgUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_margin="9dp"
+                android:adjustViewBounds="true"
+                android:padding="3dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/poto" />
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/fullname_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imgUser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="-30sp"
+            android:fontFamily="@font/sue_ellen_francisco"
+            android:text="Aisyah Firdausi"
+            android:textColor="#ffff"
+            android:textSize="39sp" />
+
+
+        <TextView
+            android:id="@+id/username_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fullname_field"
+            android:layout_centerHorizontal="true"
+            android:fontFamily="sans-serif"
+            android:layout_marginTop="-5dp"
+            android:text="aisyahfrds"
+            android:textAllCaps="true"
+            android:textColor="#ffff"
+            android:textSize="14sp" />
+
+
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rellay1">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:padding="20dp">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="Full Name"
+            android:id="@+id/full_name_profile"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+
+            >
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableLeft="@drawable/userkecil"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Aisyah Firdausi"
+                />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="Email"
+            android:id="@+id/email_profile"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableLeft="@drawable/emailkecil"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="aisyahfirdausi73@gmail.com"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="Phone Number"
+            android:id="@+id/phone_profile"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableLeft="@drawable/phonekecil"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="081212877879"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:hint="Password"
+            android:id="@+id/pass_profile"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:drawableLeft="@drawable/loginkecil"
+                android:drawablePadding="10dp"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:text="Surabaya73"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/daftarkelogin2"
+            android:layout_width="match_parent"
+            android:layout_height="29dp"
+            android:background="@android:color/transparent"
+            android:onClick="callSemuamenu"
+            android:text="Go to Categories"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+    </RelativeLayout>
+
+
+</RelativeLayout>

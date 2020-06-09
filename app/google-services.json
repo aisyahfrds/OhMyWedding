@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1097933846099",
+    "firebase_url": "https://horeuastelahtiba.firebaseio.com",
+    "project_id": "horeuastelahtiba",
+    "storage_bucket": "horeuastelahtiba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1097933846099:android:e0848f833f1150747d78a6",
+        "android_client_info": {
+          "package_name": "com.icha.horeuastelahtiba"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1097933846099-c8kooea6l4ddmv7bnfhsfa02aa0h035e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCPVViNWJUSf7DtiCRPqGB_7uSgAWwnpVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1097933846099-c8kooea6l4ddmv7bnfhsfa02aa0h035e.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

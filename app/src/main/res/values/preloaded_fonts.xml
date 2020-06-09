@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/allura</item>
+        <item>@font/antic</item>
+        <item>@font/bangers</item>
+        <item>@font/chewy</item>
+        <item>@font/fredoka_one</item>
+        <item>@font/leckerli_one</item>
+        <item>@font/over_the_rainbow</item>
+        <item>@font/sue_ellen_francisco</item>
+        <item>@font/yellowtail</item>
+    </array>
+</resources>
